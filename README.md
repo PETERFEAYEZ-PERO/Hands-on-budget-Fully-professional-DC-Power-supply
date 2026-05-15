@@ -29,13 +29,13 @@ Part of the "Building My Lab From Zero" series.
 15- License                                                               
 
 
-#The Main identity and features:
+## The Main identity and features:
 
 I had always dreamed about owning an awesome power supply for my projects, a cable to handle various projects, ideas, and testing loads.
 Unfortunately, the features, design, and flexibility I need would cost me a lot of money. So I decided to make my own. Additionally, as I had no workshop, no tools, no devices, or anything, I found it cool to make a full series on building my lab. 
 
 
-The Features I was dreaming about:                                                               
+### The Features I was dreaming about:                                                               
 1- Adjustable DC power supply ranging from Lim➡️ZERo Till 24V.                                                               
 2- Multi-port for output like 4 or 5.                                                               
 3- LCD or high-quality screen, rather than 7-segment.                                                               
@@ -59,7 +59,39 @@ Additionally, you don't have to make the full project; there are versions of thi
 
 
 
-Why DIY, not buy a new ready one??
+## Why DIY, not buy a new, ready one??                                                             
+Undergoing yet
+
+
+
+## list of materials and cost                                                                        
+### 🔌The Power section:
+#### DC section:-
+1) Power Adaptor AC to DC 24V and 5A                                                             
+   cost Range from                                                              
+2) Buck Converters for every DC port
+                                                                
+3) Rotary Encoder per Port                                                             
+                                                                
+4) Terminal Blocks
+                                                                
+5) Wiring
+                                                                
+6) Ports                                              
+
+#### AC Power Section:-
+External three AC power strip
+
+#### Wireless Charger module:-
+Wireless Charger Module
+
+
+
+
+
+
+
+
 
 
 
