@@ -110,6 +110,26 @@ Simply to display the voltage and current for every port, additionally warning i
 5)- Buzzer:
 For a short circuit warning.
 
+6)- Relay module (Fuse integrated) for every port of DC and the wireless charger.
+
+7)- Switch per every DC and the wireless charger.
+
+8)- Circuit of continuous control for the fans and cooling.
+
+### 🌡️ Cooling system & 🔐seafty control:
+
+#### 🌡️Cooling System:
+<ol>
+<li>SSR Heatsink</li>
+<li>Two or three Fans</li>
+</ol>
+
+#### 🔐 safety control:
+<ol>
+<li><strong> Main fuse after the power Adapter </strong></li>
+<li>May be added fuse per every port</li>
+</ol>
+
 
 
 
