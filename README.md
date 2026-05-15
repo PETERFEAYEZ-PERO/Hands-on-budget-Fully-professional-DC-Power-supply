@@ -86,6 +86,29 @@ External three AC power strip
 Wireless Charger Module
 
 
+### 📟The Controlling section:-
+1)- THE Microcontroller (MCU):                                    
+<ul>
+<li>Air001 MCU Cortex M0 core 32Kflash TSSOP20</li>                             
+or                                                 
+<li> ESP 32 (in case of making the final version)</li>
+or 
+<li>just any MCU (unless it fits the main parameters of the project)</li>
+</ul>
+
+2)- Current Sensor:
+<ul>
+<li>ACS 712</li>
+</ul>
+
+3)- Voltage Calibration circuit (Voltage Divider):-
+<incline> under research until now </incline>
+
+4)- Liquid Crystal Display (LCD):
+Simply to display the voltage and current for every port, additionally warning in case a short circuit occurs.
+
+5)- Buzzer:
+For a short circuit warning.
 
 
 
