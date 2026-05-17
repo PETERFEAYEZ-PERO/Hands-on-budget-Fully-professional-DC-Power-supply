@@ -1,4 +1,4 @@
-Here is a fully DC power supply with implemented Safety features, MCU real-time controlling, Voltage & Current adjusting, a cooling system, a wireless charger, and also an LCD Display for output voltage.
+Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and an LCD Display for output voltage.
 This Project is Part of -Making My Lab- series.
 
 
@@ -13,7 +13,7 @@ Part of the "Building My Lab From Zero" series.
 # Contents:
 
 1- The main identity and features                                                                              
-2- Why DIY, not buy a new ready one?                                                                      
+2- Why DIY, not buy a new, ready-made one?                                                                      
 3- list of materials and cost                                                                        
 4- The System Architecture flow                                                               
 5- The main system Parameters                                                               
@@ -50,10 +50,11 @@ Unfortunately, the features, design, and flexibility I need would cost me a lot 
 11- Short Circuit prevention.                                                               
 12- Battery Charging.                                                               
 13- Cable for Modefecation.                                                                
-14- OverVoltage Protection (OVP), OverCurrent protection (OCP), and OverTemperature Protection (OTP)                                                               
+14- OverVoltage Protection (OVP), OverCurrent protection (OCP), and OverTemperature Protection (OTP)                               
+15- PID controlling
 
 
-So, to find these features in PSU nowadays would cost a bunch of money, about ------- , and this is actually quite expensive for every beginner.
+So, to find these features in PSU nowadays would cost a bunch of money, about -------, and this is actually quite expensive for every beginner.
 For that sake, I made Making My lab series, where I will make a full lab device open-sourced for all around the world.
 Additionally, you don't have to make the full project; there are versions of this project and other alligments I will provide through the journal file, and the system architecture part in that Readme, so make whatever you need. Also, I am available all of the time answering your questions and giving you help❤️ in any kinda of projects, whatever it is. Just Feel Free to go for the Contact part.
 
@@ -67,7 +68,7 @@ Undergoing yet
 ## list of materials and cost                                                                        
 ### 🔌The Power section:
 #### DC section:-
-1) Power Adaptor AC to DC 24V and 5A                                                             
+1) Power Adaptor AC to DC 24V and 5A                                                              
    cost Range from                                                              
 2) Buck Converters for every DC port
                                                                 
@@ -116,6 +117,8 @@ For a short circuit warning.
 
 8)- Circuit of continuous control for the fans and cooling.
 
+9)- PiD controlling
+
 ### 🌡️ Cooling system & 🔐seafty control:
 
 #### 🌡️Cooling System:
@@ -129,16 +132,40 @@ For a short circuit warning.
 <li><strong> Main fuse after the power Adapter </strong></li>
 <li>May be added fuse per every port</li>
 </ol>
+</br>
 
 
-
-
+# The system architecture flow:
+## The power Circuit:
+       
+      
+       [ 24V Adapter ]
+               │
+         ┌─────▼─────┐
+         │  MAIN FUSE │
+         └─────▲─────┘
+               │
+         ┌─────▼─────────────┐
+         │  LM2596 BUCK      │ ← (Voltage control via potentiometer)
+         └─────▲─────────────┘
+               │
+         ┌─────▼─────────────┐
+         │  ACS712 CURRENT   │
+         │  SENSOR           │
+         └─────▲─────────────┘
+               │
+         ┌─────▼─────────────┐
+         │  RELAY MODULE     │ ← controlled by MCU
+         └─────▲─────────────┘
+               │
+        ┌──────┼──────────────┐
+        │      │              │
+       [PORT1] [PORT2]       [PORT3]
+        +       +             +
+       (Fuse)  (Fuse)        (Fuse)
 
 
 
 
 
 Upcoming progress:
-Future firmware revisions may implement closed-loop regulation
-and advanced current control techniques.
-PID
