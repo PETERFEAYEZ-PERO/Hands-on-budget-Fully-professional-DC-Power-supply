@@ -137,33 +137,7 @@ For a short circuit warning.
 
 # The system architecture flow:
 ## The power Circuit:
-       
-      
-       [ 24V Adapter ]
-               │
-         ┌─────▼─────┐
-         │  MAIN FUSE │
-         └─────▲─────┘
-               │
-         ┌─────▼─────────────┐
-         │  LM2596 BUCK      │ ← (Voltage control via potentiometer)
-         └─────▲─────────────┘
-               │
-         ┌─────▼─────────────┐
-         │  ACS712 CURRENT   │
-         │  SENSOR           │
-         └─────▲─────────────┘
-               │
-         ┌─────▼─────────────┐
-         │  RELAY MODULE     │ ← controlled by MCU
-         └─────▲─────────────┘
-               │
-        ┌──────┼──────────────┐
-        │      │              │
-       [PORT1] [PORT2]       [PORT3]
-        +       +             +
-       (Fuse)  (Fuse)        (Fuse)
-
+<img width="936" height="497" alt="Screenshot 2026-05-17 071048" src="https://github.com/user-attachments/assets/4db27848-1878-45bd-9bd3-e8a998eb2592" />
 
 
 
