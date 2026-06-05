@@ -130,14 +130,15 @@ For a short circuit warning.
 #### 🔐 safety control:
 <ol>
 <li><strong> Main fuse after the power Adapter </strong></li>
-<li>May be added fuse per every port</li>
+<li>May be added a fuse to every port</li>
 </ol>
 </br>
 
 
 # The system architecture flow:
 ## The power Circuit:
-<img width="1144" height="681" alt="the power shematic drawio" src="https://github.com/user-attachments/assets/372570cf-ef17-44f5-ab4c-59de6cc9f531" />
+<img width="1194" height="705" alt="Screenshot 2026-06-05 162609" src="https://github.com/user-attachments/assets/b8a3f0fa-3736-4743-a6c0-c15eaaef2f2b" />
+I made this using Draw.io.
 
 
 
