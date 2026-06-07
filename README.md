@@ -137,7 +137,8 @@ For a short circuit warning.
 
 # The system architecture flow:
 ## The power Circuit:
-<img width="1194" height="705" alt="Screenshot 2026-06-05 162609" src="https://github.com/user-attachments/assets/b8a3f0fa-3736-4743-a6c0-c15eaaef2f2b" />
+<img width="1409" height="681" alt="the power shematic drawio" src="https://github.com/user-attachments/assets/2a8d7dcc-698f-468f-b34c-2963b016541c" />
+
 I made this using Draw.io.
 
 
