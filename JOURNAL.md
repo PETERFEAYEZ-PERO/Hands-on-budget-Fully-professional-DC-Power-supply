@@ -107,10 +107,13 @@ and some of the buzzers' circuits:
 
 
 # June 8: making each of the power and control rail full independently!
+That day, I discovered I won't be making one PCB integrating all of that system. I decided to split the PCBs into power rail and control rails, also decreasing the noise and electronic fluctuations as much as possible. So I made:
 Control rail!!
 <img width="1096" height="752" alt="Screenshot 2026-06-08 024149" src="https://github.com/user-attachments/assets/1990a1de-dc05-4aad-a259-73d0c314bee0" />
+Where the ESP, Fans, NTC, ETC...
 Power rail!!
 <img width="1029" height="711" alt="Screenshot 2026-06-08 024431" src="https://github.com/user-attachments/assets/e62f1729-2901-4468-ac93-2eaebaa05fc6" />
+Where the relay, XL4016, Etc...
 
 **Total time spent: 3 hours**
 
