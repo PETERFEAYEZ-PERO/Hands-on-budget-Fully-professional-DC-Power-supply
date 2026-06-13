@@ -11,6 +11,7 @@ You can use my Readme record as some sort of check cuase i wasn't konw about jou
 
 # June 1: Begin search, study power electronics, write my parameters:
 This was my actual first step as a new member in the electronics and hack club, too. I had barely enough electronics knowledge to understand the theoretical perspective of electricity and power conversion. So, I began to study, making my first flow chart with draw IO that took about 3 hours, including several mistakes and overkill misconceptions in basic power and wiring concepts, especially for the surge protection.
+
 <img width="936" height="497" alt="Screenshot 2026-05-17 071048" src="https://github.com/user-attachments/assets/10447f69-c7f1-4000-91a5-4195e1a673eb" />
 
 **Total time spent: 3 hours**
@@ -127,14 +128,10 @@ And for the cooling: I was so confused choosing a 12025 fan or a 6015 fan, as th
 **Total time spent: 4 hours**
 
 
-# June 10: rest!!
-Rest + completing my research with *Wolfram*!!
-
-**Total time spent: ZERO**
-
 
 # June 11:The Boom and materials writing on Google spreadsheet!
 I know it sounds crazy that someone will take three hours to write the BOOM, but how things go in Egypt Cuz i don't know what is available or not, and there is no unified price. Additionally, I may need to categorize the materials into sublists from every shop, which takes much time.
+<img width="1438" height="602" alt="image" src="https://github.com/user-attachments/assets/dfe8fd5f-9997-48c6-ae89-471ce35f17dd" />
 
 I know it may sound a little bit unbelievable!!
 **Total time spent: 3 hours**
