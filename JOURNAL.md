@@ -47,6 +47,7 @@ Additionally, I had started searching for the components' availability in Egypt 
 # June 4: the CV and CC adjustment discovery by the XL4016
 This is the first day I understood how the FB pins in the XL4016 were really working and how it is adjusted to a ref. of 1.25v. Here is the core of the adjustable power supply emergent, and how it could be the Potentiometer replaced with encoders(my dream!!!!)
 That research about available options takes me about 4 hours.
+<img width="1083" height="391" alt="image" src="https://github.com/user-attachments/assets/291fa023-ce6c-416f-a310-8cbc7cf34082" />
 
 And yes, I began to be hopeful that I came up with a more detailed approach to the digital potentiometer.
 
@@ -117,6 +118,8 @@ Power rail!!
 # June 9: USB Hub!!
 This was my actual beginning with the USB Hub. I was juggling between research, cooling, brainstorming, finding good internet ideas, and calculating the actual Ampere and voltage I need, respectively, to meet my parameters.
 I take about four hours, thus I need a separate power adaptor of 12V and 5A using another XL4016 with a display for operating 4 type-A female USBs and two Type-C USBs.
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/08b89397-4939-49f7-af2d-25539a644b5e" />
+
 Also, I had chosen all of the materials I needed. 
 One's choice was hard, but the most difficult is the choice of the fan, either it's opperation method or even dimensions!!
 I chose after a long brainstorming session, I chose to use a simple switch; however, I will leave it open all of the time.
@@ -124,6 +127,7 @@ Additionally, I made the Type-C as a rail and the Type-A USBs as another rail pa
 Although I added a fuse to each rail, what if the fuse just blew out(in case of connection of the four USBs with huge current devices)? Then my family will wait until Peter comes from the trip to find a way to fix that thing?
 So, added within each rail to parallel rails leading to the USB's rail, one with only a fuse and the other with a closed switch and fuse, so that the first fuse blew out. We will be able to operate the same rail in another way.
 And for the cooling: I was so confused choosing a 12025 fan or a 6015 fan, as the bigger dimensions it is, the quieter it became(good deal!), but less RPM(Bad deal). I chose the 6015 fan for proper cooling, and also after I found that the USB hub had to be relatively small.
+<img width="1224" height="1584" alt="image" src="https://github.com/user-attachments/assets/439a4929-5d02-4765-8800-342b931933ba" />
 
 **Total time spent: 4 hours**
 
